@@ -1,0 +1,12 @@
+.jumbotron{
+    margin-top:10px;
+}
+.btn{
+    margin-bottom:15px;
+}
+.btnContainer{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
