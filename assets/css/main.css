@@ -1,5 +1,6 @@
 body{
-    background-color: #9AECDB !important;
+    background-color: #EF5350 !important;
+    transition: all ease-in 0.5s;
 }
 .container{
     padding: 20px;
@@ -7,6 +8,12 @@ body{
 .row{
     margin-bottom: 20px;
 }
+#submitProblem{
+    background-color: antiquewhite;
+    padding: 20px;
+}
 .col-sm{
+    background-color: antiquewhite;
     margin: 10px;
+    padding: 20px;
 }
