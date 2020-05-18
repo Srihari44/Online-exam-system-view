@@ -1,5 +1,5 @@
 body{
-    background-color: #EF5350 !important;
+    background-color: rgb(248, 107, 105) !important;
     transition: all ease-in 0.5s;
 }
 .container{
@@ -9,11 +9,11 @@ body{
     margin-bottom: 20px;
 }
 #submitProblem{
-    background-color: antiquewhite;
+    background-color:#e9ecef;
     padding: 20px;
 }
 .col-sm{
-    background-color: antiquewhite;
+    background-color: #e9ecef;
     margin: 10px;
     padding: 20px;
 }
