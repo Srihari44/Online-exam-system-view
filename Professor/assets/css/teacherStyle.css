@@ -48,3 +48,7 @@ form{
 .tablediv {
   overflow-x: scroll;
 }
+.table-dark{
+  background-color: #e9ecefb9 !important;
+  color: rgba(26, 25, 25, 0.849) !important;
+}
