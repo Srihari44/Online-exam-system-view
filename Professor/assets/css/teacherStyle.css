@@ -24,7 +24,8 @@ body {
   margin-top: 10px;
 }
 .container{
-  height: 100vh !important;
+  min-height: 95vh !important;
+  height: fit-content !important;
   margin-top: 20px;
 }
 .btn {
