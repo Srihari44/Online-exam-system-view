@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Oswald&display=swap');
 body {
   background: linear-gradient(#007bffe6, #6710f2e6) !important;
-  font-family: "Poppins", sans-serif !important;
+  font-family: "Jost",sans-serif;
   transition: all ease-in 0.5s;
 }
 .navbar {
@@ -8,7 +9,7 @@ body {
 }
 .navbar-dark .navbar-brand {
   color: #efeff0 !important;
-  font-family: "Arial Narrow Bold", sans-serif;
+  font-family: "Jost",sans-serif;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -22,6 +23,7 @@ body {
 }
 .jumbotron {
   margin-top: 10px;
+  font-family: "Oswald", sans-serif !important;
 }
 .container{
   min-height: 95vh !important;
@@ -44,6 +46,7 @@ form{
   background-color: #e9ecefb9;
   padding: 10px;
   border-radius: .3rem;
+  font-family: "Poppins",sans-serif;
 }
 .tablediv {
   overflow-x: scroll;
