@@ -1,32 +1,45 @@
-body{
-    background-color: #20bf55 !important;
-    background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%) !important;
-    font-family: 'Poppins', sans-serif !important;
-    transition: all ease-in 0.5s;
+body {
+  background: linear-gradient(#007bff, #6610f2) !important;
+  font-family: "Poppins", sans-serif !important;
+  transition: all ease-in 0.5s;
 }
-.navbar{
-    background-color: rgb(54, 54, 50);
+.navbar {
+  background-color: rgb(36, 36, 36);
 }
 .navbar-dark .navbar-brand {
-    color: #efeff0 !important;
-    font-family: 'Arial Narrow Bold', sans-serif;;
+  color: #efeff0 !important;
+  font-family: "Arial Narrow Bold", sans-serif;
 }
 .navbar-dark .navbar-toggler {
-    color: rgba(255,255,255,.5);
-    border: none !important;
+  color: rgba(255, 255, 255, 0.5);
+  border: none !important;
 }
-.jumbotron{
-    margin-top:10px;
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none !important;
+  box-shadow: none !important;
 }
-.btn{
-    margin-bottom:15px;
+.jumbotron {
+  margin-top: 10px;
 }
-.btnContainer{
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.btn {
+  margin-bottom: 15px;
 }
-.tablediv{
-    overflow-x: scroll;   
-  }
+form{
+  background-color: #e9ecefb9;
+  padding: 10px;
+  border-radius: .3rem;
+}
+caption{
+  color: black !important;
+}
+.btnContainer {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tablediv {
+  overflow-x: scroll;
+}

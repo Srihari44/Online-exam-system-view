@@ -13,7 +13,10 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -29,11 +32,14 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <title>Online Examination System</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top ">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
       <a class="navbar-brand" href="#">Online Examination System</a>
       <button
         class="navbar-toggler"
@@ -54,7 +60,12 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" target="_blank" href="https://github.com/Srihari44/Online-exam-system-view">About us</a>
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://github.com/Srihari44/Online-exam-system-view"
+              >About us</a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#submitProblem">Submit problem</a>
@@ -63,14 +74,16 @@
       </div>
     </nav>
     <div class="container">
-        <div class="jumbotron">
-            <h1 class="display-4">Online Examination System</h1>
-            <p class="lead">Hi there! we welcome you to our new online based examination system.</p>
-          </div>
+      <div class="jumbotron">
+        <h1 class="display-4">Online Examination System</h1>
+        <p class="lead">
+          Hi there! we welcome you to our new online based examination system.
+        </p>
+      </div>
       <div class="row">
-        <div class="col-sm" >
-          <h3 >Professor login</h3>
-          <form  action="./Professor/index.html">
+        <div class="col-sm">
+          <h3>Professor login</h3>
+          <form action="./Professor/index.html">
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input
@@ -93,7 +106,7 @@
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </div>
-        
+
         <div class="col-sm" id="studentLogin">
           <h3>Student login</h3>
           <form action="./Student/index.html">
@@ -120,29 +133,33 @@
           </form>
         </div>
       </div>
-      <hr class="my-4">
+      <hr class="my-4" />
       <div class="justify-content-center" id="submitProblem">
-          <h3>Submit Problem</h3>
-          <form>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  aria-describedby="emailHelp"
-                  placeholder="Enter email"
-                />
-                <small id="emailHelp" class="form-text text-muted"
-                  >We'll never share your email with anyone else.</small
-                >
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextarea1">Feedback</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
+        <h3>Submit Problem</h3>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+            <small id="emailHelp" class="form-text text-muted"
+              >We'll never share your email with anyone else.</small
+            >
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Feedback</label>
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
       </div>
     </div>
     <script src="./assets/js/main.js"></script>
