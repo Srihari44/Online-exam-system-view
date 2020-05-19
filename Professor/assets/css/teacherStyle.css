@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(#007bff, #6610f2) !important;
+  background: linear-gradient(#007bffe6, #6710f2e6) !important;
   font-family: "Poppins", sans-serif !important;
   transition: all ease-in 0.5s;
 }
@@ -49,6 +49,6 @@ form{
   overflow-x: scroll;
 }
 .table-dark{
-  background-color: #e9ecefb9 !important;
+  background-color: #e9ecef !important;
   color: rgba(26, 25, 25, 0.849) !important;
 }

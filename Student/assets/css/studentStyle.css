@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(#007bff, #6610f2) !important;
+  background: linear-gradient(#5d9de2e6, #8142e7e6) !important;
   font-family: "Poppins", sans-serif !important;
   transition: all ease-in 0.5s;
 }
@@ -11,7 +11,6 @@ body {
   font-family: "Arial Narrow Bold", sans-serif;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
   border: none !important;
 }
 .navbar-toggler:focus,
@@ -49,6 +48,6 @@ caption{
   overflow-x: scroll;
 }
 .table-dark{
-  background-color: #e9ecefb9 !important;
+  background-color: #efeff0 !important;
   color: rgba(26, 25, 25, 0.849) !important;
 }
