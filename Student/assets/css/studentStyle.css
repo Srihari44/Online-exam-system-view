@@ -4,7 +4,7 @@ body {
   transition: all ease-in 0.5s;
 }
 .navbar {
-  background-color: rgb(45, 45, 45);
+  background-color: rgb(40, 40, 40);
 }
 .navbar-dark .navbar-brand {
   color: #efeff0 !important;
