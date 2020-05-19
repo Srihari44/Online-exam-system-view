@@ -20,6 +20,10 @@ body {
   outline: none !important;
   box-shadow: none !important;
 }
+.container{
+  height: 100vh !important;
+  margin-top: 20px;
+}
 .jumbotron {
   margin-top: 10px;
 }
